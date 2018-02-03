@@ -1,0 +1,21 @@
+{
+  "name": "hello-node",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_PATH=./ node src/app",
+    "test": "NODE_PATH=./ mocha"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "dotenv": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.14.12",
+    "proxyquire": "^1.8.0"
+  }
+}
