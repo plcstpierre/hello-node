@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "NODE_PATH=./ node src/app",
-    "test": "NODE_PATH=./ mocha"
+    "test": "NODE_PATH=./ ./node_modules/eslint/bin/mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
   },
   "dependencies": {
     "bunyan": "^1.8.12",
@@ -14,6 +15,8 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
+    "eslint": "^4.17.0",
+    "eslint-plugin-mocha": "^4.11.0",
     "mocha": "^5.0.0",
     "nodemon": "^1.14.12",
     "proxyquire": "^1.8.0"

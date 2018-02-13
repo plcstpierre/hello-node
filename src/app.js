@@ -1,8 +1,6 @@
 "use strict"
 
-require( 'dotenv' ).config()
-
-const bunyan = require( 'bunyan' )
+require('dotenv').config()
 
 const logger = require('./logger')
 

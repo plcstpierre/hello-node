@@ -1,6 +1,8 @@
+"use strict"
+
 describe('all tests', () => {
     beforeEach(() => {
-        
+
     })
 
     describe('scenario 1', () => {
