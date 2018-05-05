@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_PATH=./ node src/app",
-    "test": "NODE_PATH=./ ./node_modules/eslint/bin/mocha",
-    "lint": "./node_modules/eslint/bin/eslint.js ."
+    "start": "node src/app",
+    "test": "mocha .",
+    "lint": "eslint ."
   },
   "dependencies": {
     "bunyan": "^1.8.12",
